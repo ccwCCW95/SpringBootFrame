@@ -1,3 +1,10 @@
+/*
+ * @Author: Changwei Cao
+ * @Date: 2022-01-05 13:21:47
+ * @LastEditors: Changwei Cao
+ * @LastEditTime: 2022-01-05 15:18:02
+ * @Description: 用户表数据映射接口
+ */
 package com.ccw.springbootframe.provider.mapper;
 
 import com.ccw.springbootframe.model.TblTestUser;

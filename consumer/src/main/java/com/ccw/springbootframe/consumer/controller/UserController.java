@@ -1,3 +1,10 @@
+/*
+ * @Author: Changwei Cao
+ * @Date: 2022-01-05 13:21:47
+ * @LastEditors: Changwei Cao
+ * @LastEditTime: 2022-01-05 15:25:59
+ * @Description: 控制器
+ */
 package com.ccw.springbootframe.consumer.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -13,6 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UserController {
 
+    //指定Dubbo服务
     @Reference(interfaceName = "com.ccw.springbootframe.service.UserService", version = "1.0.0", check = false)
     private UserService userService;
 

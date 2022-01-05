@@ -1,3 +1,11 @@
+/*
+ * @Author: Changwei Cao
+ * @Date: 2022-01-05 13:21:47
+ * @LastEditors: Changwei Cao
+ * @LastEditTime: 2022-01-05 15:15:59
+ * @Description: 用户表实体类
+ * 注意 要实现Serializable接口(Dubbo分布式要求)
+ */
 package com.ccw.springbootframe.model;
 
 import java.io.Serializable;
